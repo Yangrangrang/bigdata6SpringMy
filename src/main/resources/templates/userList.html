@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>
+    유저 리스트
+    <strong th:text="1+1"></strong>
+    </h1>
+    <table>
+        <thead>
+            <tr>
+                <th>num</th>
+                <th>이름</th>
+                <th>급여</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td><a href="detail.do?userNo=1">홍길동01</a></td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><a href="detail.do?userNo=2">홍길동02</a></td>
+            <td>2000</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><a href="detail.do?userNo=3">홍길동03</a></td>
+            <td>3000</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><a href="detail.do?userNo=4">홍길동04</a></td>
+            <td>4000</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><a href="detail.do?userNo=5">홍길동05</a></td>
+            <td>5000</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td><a href="detail.do?userNo=6">홍길동06</a></td>
+            <td>6000</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td><a href="detail.do?userNo=7">홍길동07</a></td>
+            <td>7000</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td><a href="detail.do?userNo=8">홍길동08</a></td>
+            <td>8000</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td><a href="detail.do?userNo=9">홍길동09</a></td>
+            <td>9000</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td><a href="detail.do?userNo=10">홍길동10</a></td>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td><a href="detail.do?userNo=">잘못된 링크1(400)</a></td>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td><a href="detail.do?userNo=삼">잘못된 링크2(400)</a></td>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td><a href="detail.do">잘못된 링크3(400)</a></td>
+            <td>10000</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
